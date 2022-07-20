@@ -10,6 +10,7 @@ export const ContentFlexBox = styled.div`
   flex-wrap: wrap;
   @media (max-width: 768px) {
     flex-direction: column;
+    color: red;
   }
 `;
 
