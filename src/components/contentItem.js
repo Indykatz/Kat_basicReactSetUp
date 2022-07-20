@@ -5,12 +5,20 @@ const ContentItem = () => {
     "Kat",
     "Dom",
     "Wren",
-    "Alex",
+    "Alex B",
     "Gaz",
     "Karl",
     "John",
     "James",
-    "Adbel",
+    "Abdelbar",
+    "Benny",
+    "Eddie",
+    "Olly",
+    "Alex K",
+    "Safwan",
+    "Keisha",
+    "Josh",
+    "Liz",
   ];
   return (
     <ContentFlexBox>
