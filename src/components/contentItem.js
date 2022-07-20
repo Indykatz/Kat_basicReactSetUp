@@ -13,15 +13,11 @@ const ContentItem = () => {
     "Adbel",
   ];
   return (
-    <div>
-      <div>
-        <ContentFlexBox>
-          {theGang.map((gang, i) => {
-            return <ContentItemBox key={i}>{gang}</ContentItemBox>;
-          })}
-        </ContentFlexBox>
-      </div>
-    </div>
+    <ContentFlexBox>
+      {theGang.map((gang, i) => {
+        return <ContentItemBox key={i}>{gang}</ContentItemBox>;
+      })}
+    </ContentFlexBox>
   );
 };
 

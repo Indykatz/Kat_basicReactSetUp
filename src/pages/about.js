@@ -3,7 +3,7 @@ import { AppStyles, ContentStyled, Header1Styled } from "../styles/app.styles";
 
 const About = () => {
   return (
-    <AppStyles>
+    <AppStyles> 
       <ContentStyled>
         <Header1Styled>About</Header1Styled>
         <ContentItem />
